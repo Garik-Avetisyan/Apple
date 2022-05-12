@@ -10,3 +10,7 @@ class AppleTestClass(unittest.TestCase, SetUpClass):
 
     def test_simpleTC(self):
         self.driver.get("https://www.apple.com")
+
+    def tearDown(self):
+        time.sleep(1)
+        self.driver.close()
