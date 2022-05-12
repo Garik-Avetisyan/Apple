@@ -13,6 +13,7 @@ navigatinBarWhereToBuy = (By.XPATH, "(//a[@href='/buy/'])[1]")
 navigatinBarBag = (By.XPATH, "(//a[@class='ac-gn-link ac-gn-link-bag'])[2]")
 navigatinBarHidnBag = (By.CLASS_NAME, "ac-gn-bagview-nav-link ac-gn-bagview-nav-link-bag")
 
+
 #SelectProductDetailsPage
 
 blackColor = (By.XPATH, "(//div[@class ='rc-dimension-multiple form-selector-swatch column large-6 small-6 form-selector'])[5]")
@@ -21,4 +22,3 @@ connectLoc = (By.XPATH, "(//div[@class ='rf-dimension-simfree rc-dimension-multi
 pressNO = (By.ID, "noTradeIn")
 oneTimePayment = (By.XPATH, "(//div[@class ='rc-dimension-selector-row form-selector-twocol-threeline form-selector'])[2]")
 addBag = (By.NAME, "add-to-cart")
-
