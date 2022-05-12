@@ -1,5 +1,5 @@
 from Apple.LocatorsFile.AppleLocators import *
-from Common.CustumFind.FindElement import FindElement
+from Common.CustomFind.FindElement import FindElement
 
 
 class NavigationBarClass():
