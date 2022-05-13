@@ -23,7 +23,7 @@ class SelectProductDetailsPage():
         time.sleep(1)
 
     def press_no(self):
-        pressNo = self.FindElement.find(*pressNO)
+        pressNo = self.driver.find_element(*pressNO)
         pressNo.click()
         time.sleep(1)
 
