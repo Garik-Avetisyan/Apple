@@ -1,4 +1,4 @@
-from Apple.LocatorsFile.AppleLocators import *
+from Locators.Locators import *
 from Common.CustomFind.FindElement import FindElement
 
 

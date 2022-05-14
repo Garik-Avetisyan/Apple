@@ -1,6 +1,6 @@
 import time
 from Common.CustomFind.FindElement import FindElement
-from LocatorsFile.Locators import *
+from Locators.Locators import *
 
 class SelectProductDetailsPage():
     def __init__(self, driver):

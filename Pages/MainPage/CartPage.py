@@ -1,13 +1,15 @@
-from Apple.LocatorsFile.AppleLocators import *
-from Common.CustumFind.FindElement import FindElement
+from Locators.Locators import *
+from Common.CustomFind.FindElement import FindElement
 import time
 
 class CartPageClass():
     def __init__(self, driver):
         self.driver = driver
+        self.findElement = FindElement(self.driver)
+
 
     def delete_all_items_from_cart(self):
-        cartItemsCount = self.driver.find_element(*mainPageCartSectionButtonLocator)
+        cartItemsCount = self.findElement(*mainPageCartSectionButtonLocator)
         numberCartItemsCount = int(cartItemsCount.text)
         try:
             while numberCartItemsCount > 0:

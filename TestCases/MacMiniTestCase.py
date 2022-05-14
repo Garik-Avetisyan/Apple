@@ -1,6 +1,6 @@
 import time
 import unittest
-from Common.SetUp.SetUpFile import Set_Up_Class
+from Apple.Common.GeneralSetUp.SetUpFile import Set_Up_Class
 
 class Mac_Mini_Test_Class(unittest.TestCase, Set_Up_Class):
     def SetUp(self):

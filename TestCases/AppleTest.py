@@ -1,7 +1,7 @@
 import time
 import unittest
-from Apple.Pages.MainPage.HomePageApple import NavigationBarClass
-from Apple.Common.GeneralSetUp.GenSetUp import SetUpClass
+from Pages.MainPage.HomePageApple import NavigationBarClass
+from Common.GeneralSetUp.GeneralSetUpFile import SetUpClass
 
 class AppleTestClass(unittest.TestCase, SetUpClass):
     def setUp(self):
@@ -10,7 +10,8 @@ class AppleTestClass(unittest.TestCase, SetUpClass):
 
     def test_simpleTC(self):
         self.driver.get("https://www.apple.com")
+        self.navigationbar.click_watch_button()
 
     def tearDown(self):
-        time.sleep(1)
+        time.sleep(3)
         self.driver.close()

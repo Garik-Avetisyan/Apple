@@ -1,4 +1,4 @@
-from Selenium import webdriver
+from selenium import webdriver
 
 class Set_Up_Class():
     def generalSetUp(self):
