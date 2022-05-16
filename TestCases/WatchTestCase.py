@@ -1,6 +1,6 @@
 import time
 import unittest
-from Apple.Common.GeneralSetUp.SetUpFile import Set_Up_Class
+from Common.GeneralSetUp.SetUpFile import Set_Up_Class
 
 class Watch_Test_Class(unittest.TestCase, Set_Up_Class):
     def SetUp(self):
