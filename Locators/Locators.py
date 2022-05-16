@@ -36,3 +36,12 @@ cartSectionDeleteButtonLocatorAll = (By.XPATH, "//input[@class ='rs-iteminfo-rem
 #Locators Meri
 
 buyBtn = (By.LINK_TEXT, "Buy")
+
+#WatchListPage
+firstWatchLocator = (By.XPATH, "(//div[@class='rf-wuipselect-wuip rf-wuipselect-wuip-rollover-hover'])[1]")
+
+#WatchDetailsPage
+watchColorLocator = (By.XPATH, "(//img[@class='colornav-swatch'])[4]")
+caseSizeLocator = (By.XPATH, "(//label[@class='form-selector-label'])[2]")
+gpsOrGpsCellularLocator = (By.XPATH, "(//label[@class='form-selector-label'])[4]")
+bagButtonLocator = (By.XPATH, "//button[@class='button button-block']")
