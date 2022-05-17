@@ -1,5 +1,6 @@
 from Locators.LocatorsFile import *
 from Common.CustomFind.FindElement import FindElement
+from Locators.Locators import * # for Tatevik
 
 
 class NavigationBarClass():
@@ -107,8 +108,8 @@ class NavigationBarClass():
     def click_hidn_bag_button(self):
         hidnbag = self.findElement.find(*navigatinBarHidnBag)
         hidnbag.click()
-<<<<<<< HEAD
-=======
+# <<<<<<< HEAD
+# =======
 
 class ChapterNavigationBarClass():
      def __init__(self, driver):
@@ -270,4 +271,4 @@ class ChapterNavigationBarClass():
 
 
 
->>>>>>> ddb1dbf77fd24d97c2fa2e5a2bfbf557979b81ab
+# >>>>>>> ddb1dbf77fd24d97c2fa2e5a2bfbf557979b81ab

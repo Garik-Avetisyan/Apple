@@ -9,11 +9,11 @@ class CartPageClass():
 
 
     def delete_all_items_from_cart(self):
-        cartItemsCount = self.findElement(*mainPageCartSectionButtonLocator)
+        cartItemsCount = self.findElement.find(*cartSectionDeleteButtonLocator)
         numberCartItemsCount = int(cartItemsCount.text)
         try:
             while numberCartItemsCount > 0:
-                deleteItemsButton = self.driver.find_element(*cartSectionDeleteButtonLocatorAll)
+                deleteItemsButton = self.driver.find_element(*cartSectionDeleteButtonLocator)
                 deleteItemsButton.click()
                 numberCartItemsCount -= 1
                 time.sleep(2)

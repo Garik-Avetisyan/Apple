@@ -10,16 +10,7 @@ class AppleTestClass(unittest.TestCase, SetUpClass):
 
     def test_simpleTC(self):
         self.driver.get("https://www.apple.com")
-        self.navigationbar.click_mac_button()
-        self.navigationbar.click_iphone_button()
-        self.navigationbar.click_ipad_button()
-        self.navigationbar.click_watch_button()
-        self.navigationbar.click_airpods_button()
-        self.navigationbar.click_tv_home_button()
-        self.navigationbar.click_only_on_apple_button()
-        self.navigationbar.click_accessories_button()
-        self.navigationbar.click_bag_button()
-        self.navigationbar.click_hidn_bag_button()
+
 
 
 

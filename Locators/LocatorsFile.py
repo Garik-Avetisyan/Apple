@@ -12,10 +12,10 @@ navigatinBarWatch = (By.XPATH, "//li[@class='ac-gn-item ac-gn-item-menu ac-gn-wa
 navigatinBarAirPods = (By.XPATH, "//li[@class='ac-gn-item ac-gn-item-menu ac-gn-airpods']")
 navigatinBarTVHome = (By.XPATH, "//li[@class='ac-gn-item ac-gn-item-menu ac-gn-tvhome']")
 navigatinBarOnlyOnApple = (By.XPATH, "//li[@class='ac-gn-item ac-gn-item-menu ac-gn-onlyonapple']")
-navigatinBarWhereToBuy = (By.XPATH, "(//a[@href='/buy/'])[1]") #?
+# navigatinBarWhereToBuy = (By.XPATH, "(//a[@href='/buy/'])[1]") #?
 navigatinBarAccessories = (By.XPATH, "//li[@class='ac-gn-item ac-gn-item-menu ac-gn-accessories']")
 #Tamara locators
-navigatinBarBag = (By.XPATH, "//li[@id='ac-gn-bag']")
+navigatinBarBag = (By.XPATH, "ac-gn-bag-badge-unit")
 navigatinBarHidnBag = (By.XPATH, "//a[@href='https://www.apple.com/shop/bag']")
 
 # <<<<<<< HEAD
@@ -25,13 +25,13 @@ navigatinBarHidnBag = (By.XPATH, "//a[@href='https://www.apple.com/shop/bag']")
 blackColor = (By.XPATH, "(//div[@class ='rc-dimension-multiple form-selector-swatch column large-6 small-6 form-selector'])[5]")
 gb64 = (By.XPATH, "(//div[@class ='rc-dimension-multiple form-selector-threeline column large-6 small-6 form-selector'])[1]")
 connectLoc = (By.XPATH, "(//div[@class ='rf-dimension-simfree rc-dimension-multiple form-selector-threeline column large-12 small-12 form-selector'])[1]")
-pressNO = (By.ID, "noTradeIn")
+pressNO = (By.ID, "noTradeIn_label")
 oneTimePayment = (By.XPATH, "(//div[@class ='rc-dimension-selector-row form-selector-twocol-threeline form-selector'])[2]")
 addBag = (By.NAME, "add-to-cart")
 # =======
 
 
-#Cart Section
+# Cart Section
 
 cartSectionDeleteButtonLocator = (By.XPATH, "(//input[@class ='rs-iteminfo-remove as-buttonlink'])[1]")
 cartSectionDeleteButtonLocatorAll = (By.XPATH, "//input[@class ='rs-iteminfo-remove as-buttonlink']")
