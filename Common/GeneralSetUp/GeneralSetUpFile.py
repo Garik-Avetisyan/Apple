@@ -7,3 +7,5 @@ class SetUpClass():
         self.driver.delete_all_cookies()
         self.driver.maximize_window()
         self.driver.implicitly_wait(20)
+
+

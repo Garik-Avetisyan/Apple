@@ -10,7 +10,7 @@ navigatinBarTVHome = (By.XPATH, "(//a[@href='/tv-home/'])[1]")
 navigatinBarOnlyOnApple = (By.XPATH, "(//a[@href='/services/'])[1]")
 navigatinBarWhereToBuy = (By.XPATH, "(//a[@href='/buy/'])[1]")
 
-navigatinBarBag = (By.XPATH, "(//a[@class='ac-gn-link ac-gn-link-bag'])[2]")
+navigatinBarBag = (By.XPATH, "//span[@class='ac-gn-bag-badge-unit']")
 navigatinBarHidnBag = (By.CLASS_NAME, "ac-gn-bagview-nav-link ac-gn-bagview-nav-link-bag")
 
 # homePageChapterNav

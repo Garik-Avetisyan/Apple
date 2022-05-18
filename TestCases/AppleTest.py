@@ -10,7 +10,9 @@ class AppleTestClass(unittest.TestCase, SetUpClass):
 
     def test_simpleTC(self):
         self.driver.get("https://www.apple.com")
-        self.navigationbar.click_watch_button()
+
+
+
 
     def tearDown(self):
         time.sleep(3)

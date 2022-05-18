@@ -1,4 +1,4 @@
-from Locators.Locators import *
+from Locators.LocatorsFile import *
 from Common.CustomFind.FindElement import FindElement
 
 class buy_some_product():
