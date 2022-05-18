@@ -13,9 +13,6 @@ class WatchDetailsPageClass():
         watchColor.click()
         time.sleep(1)
 
-    def scroll_down_800(self):
-        self.driver.execute_script("window.scrollTo(0, 800)")
-
     def press_case_size_button(self):
         caseSize = self.findElement.find(*caseSizeLocator)
         caseSize.click()
