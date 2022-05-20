@@ -9,3 +9,4 @@ class buy_some_product():
     def press_in_buy_button(self):
         buyButton = self.findElement.find(*buyBtn)
         buyButton.click()
+

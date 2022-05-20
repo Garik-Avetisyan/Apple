@@ -84,3 +84,13 @@ watchColorLocator = (By.XPATH, "(//img[@class='colornav-swatch'])[4]")
 caseSizeLocator = (By.XPATH, "(//label[@class='form-selector-label'])[2]")
 gpsOrGpsCellularLocator = (By.XPATH, "(//label[@class='form-selector-label'])[4]")
 bagButtonLocator = (By.XPATH, "//button[@class='button button-block']")
+
+# Accessories Page Locators
+accessoriesPageSearchFieldLocator = (By.XPATH, "//input[@name='search']")
+
+# Product Details Page Locators
+productDetailsPageColorImageLocator = (By.XPATH, "(//img[@class='colornav-swatch'])[1]")
+productDetailsPageAddToBagButtonLocator = (By.ID, "add-to-cart")
+
+#Search Results Page Locators
+searchResultsPageFirstProductLocator = (By.XPATH, "(//img[@class='rc-inline-gallery-image'])[1]")
