@@ -1,6 +1,5 @@
-from Locators.LocatorsFile import *
 from Common.CustomFind.FindElement import FindElement
-from Locators.Locators import * # for Tatevik
+from Locators.Locators import *
 
 
 class NavigationBarClass():
@@ -12,90 +11,56 @@ class NavigationBarClass():
     def click_mac_button(self):
         mac = self.findElement.find(*navigatinBarMac)
         mac.click()
-        # validation block
+        assert "Mac" in self.findElement.find(*validation).text, "Mac page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "Mac" in valid_text:
-            print(valid_text ," ok")
-        else:
-            print("Error : ",valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
 
     def click_ipad_button(self):
         ipad = self.findElement.find(*navigatinBarIpad)
         ipad.click()
-        #validation block
+        assert "iPad" in self.findElement.find(*validation).text, "iPad page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "iPad" in valid_text:
-            print(valid_text, " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
 
     def click_iphone_button(self):
         iphone = self.findElement.find(*navigatinBarIphone)
         iphone.click()
-        #validation block
+        assert "iPhone" in self.findElement.find(*validation).text, "iPhone page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "iPhone" in valid_text:
-            print(valid_text, " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
+
 
     def click_watch_button(self):
         watch = self.findElement.find(*navigatinBarWatch)
         watch.click()
-        #validation block
+        assert "Watch" in self.findElement.find(*validation).text, "Watch page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "Watch" in valid_text:
-            print(valid_text, " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
 
     def click_airpods_button(self):
         airpods = self.findElement.find(*navigatinBarAirPods)
         airpods.click()
-        #validation block
+        assert "AirPods" in self.findElement.find(*validation).text, "AirPods page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "AirPods" in valid_text:
-            print(valid_text , " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
 
     def click_tv_home_button(self):
         tvhome = self.findElement.find(*navigatinBarTVHome)
         tvhome.click()
-        #validation block
+        assert "TV" in self.findElement.find(*validation).text, "TV page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "TV" in valid_text:
-            print(valid_text, " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
 
     def click_only_on_apple_button(self):
         only = self.findElement.find(*navigatinBarOnlyOnApple)
         only.click()
-        #validation block
+        assert "TV+" in self.findElement.find(*validation).text, "Only om Apple page not opened"
         valid_text = self.findElement.find(*validation).text
-        if "TV+" in valid_text:
-            print(valid_text, " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
+        print(valid_text, " ok")
 
     def click_accessories_button(self):
         accessories = self.findElement.find(*navigatinBarAccessories)
         accessories.click()
-        #validation block
-        valid_text = self.findElement.find(*validation_access).text
-        if "Browse" in valid_text:
-            print(valid_text, " ok")
-        else:
-            print("Error : ", valid_text)
-            exit("ERROR-1:")
 
     def click_where_to_buy_button(self):
         buy = self.findElement.find(*navigatinBarWhereToBuy)
@@ -108,8 +73,7 @@ class NavigationBarClass():
     def click_hidn_bag_button(self):
         hidnbag = self.findElement.find(*navigatinBarHidnBag)
         hidnbag.click()
-# <<<<<<< HEAD
-# =======
+
 
 class ChapterNavigationBarClass():
      def __init__(self, driver):
@@ -259,16 +223,3 @@ class ChapterNavigationBarClass():
      def click_apple_music_button(self):
             appleMusic = self.findElement.find(*chapternavBarAppleMusic)
             appleMusic.click()
-
-
-
-
-
-
-
-
-
-
-
-
-# >>>>>>> ddb1dbf77fd24d97c2fa2e5a2bfbf557979b81ab

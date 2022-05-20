@@ -1,6 +1,6 @@
 import time
 from Common.CustomFind.FindElement import FindElement
-from Locators.LocatorsFile import *
+from Locators.Locators import *
 
 class SelectProductDetailsPage():
     def __init__(self, driver):
@@ -23,7 +23,9 @@ class SelectProductDetailsPage():
         time.sleep(1)
 
     def press_no(self):
+        time.sleep(1)
         pressNo = self.driver.find_element(*pressNO)
+        time.sleep(1)
         pressNo.click()
         time.sleep(1)
 
