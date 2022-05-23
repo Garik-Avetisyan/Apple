@@ -93,3 +93,8 @@ productDetailsPageAddToBagButtonLocator = (By.ID, "add-to-cart")
 
 #Search Results Page Locators
 searchResultsPageFirstProductLocator = (By.XPATH, "(//img[@class='rc-inline-gallery-image'])[1]")
+
+#Mac Mini Page (Semyon)
+selectMacMiniLocator = (By.XPATH, "//form[@data-testid='buyflowform']")
+continueButtonLocator = (By.XPATH, '//button[@name="proceed"]')
+addToBagButtonLocator = (By.XPATH, "//button[@name='add-to-cart']")
